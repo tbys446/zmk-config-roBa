@@ -5,11 +5,6 @@
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 
-#include <input/processors.dtsi>
-
-
-
-
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
