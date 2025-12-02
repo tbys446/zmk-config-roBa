@@ -24,6 +24,8 @@
         31 // Back
         32 // Front
     >;
+
+     require-prior-idle-ms = <200>;
 };
 / {
     //trackball_listener {    
