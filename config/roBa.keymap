@@ -99,7 +99,7 @@
         };
     };
 
-/{
+
     macros {
         exit_AML: exit_AML {
             compatible = "zmk,behavior-macro";
@@ -139,7 +139,7 @@
             quick-tap-ms = <200>;
         };
     };
-}
+
 
     keymap {
         compatible = "zmk,keymap";
