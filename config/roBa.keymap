@@ -12,7 +12,10 @@
     quick-tap-ms = <0>;
 };
 
-&trackball {
+&trackball_listener{
+    input-processors = <&zip_temp_layer 4 10000>;
+
+//&trackball {
     //automouse-layer = <4>;
     //scroll-layers = <5>;
 
@@ -27,7 +30,7 @@
     //     wait-ms = <5>;
     //     tap-ms = <5>;
     // };
-};
+//};
 
 
 / {
